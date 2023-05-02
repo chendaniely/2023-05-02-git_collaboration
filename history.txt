@@ -1,0 +1,75 @@
+  455  cd git/2023-05-02-git_collaboration/
+  456  git log --oneline --graph --all
+  457  git push origin conflict_branch_1
+  458  git push --force origin conflict_branch_1
+  459  git switch main
+  460  git pull origin main
+  461  git fetch --pruen
+  462  git fetch --prune
+  463  git branch -d conflict_branch_1 conflict_branch_2
+  464  git log --oneline --graph --all
+  465  history
+  466  git pull origin mmain
+  467  git pull origin main
+  468  git diff
+  469  git add README.md
+  470  git commit -m "remove conflict text"
+  471  git push origin main
+  472  git status
+  473  git diff
+  474  git add README.md
+  475  git commit -m "note about how to enable main protection"
+  476  git push origin main
+  477  git status
+  478  git commit -am "do not bypass"
+  479  git push origin main
+  480  git status
+  481  git commit -am "fix all the settings?"
+  482  git push origin main
+  483  git log --oneline --graph --all
+  484  git branch branch_protection_rules
+  485  git log --oneline --graph --all
+  486  git reset --hard 7c43974
+  487  it log --oneline --graph --all
+  488  git log --oneline --graph --all
+  489  git switch branch_protection_rules
+  490  git switch branch_protection_rules
+  491  git branch -a
+  492  git switch branch_protection_rules
+  493  git push origin branch_protection_rules
+  494  git checkout main
+  495  git pull origin main
+  496  git fetch --prune
+  497  git branch -d branch_protection_rules
+  498  git l
+  499  git log --oneline --graph --all
+  500  git switch -c dev
+  501  git push origin dev
+  502  git switch -c git_flow
+  503  git status
+  504  git diff
+  505  git add README.md
+  506  git commit -m "git flow"
+  507  git push origin git_flow
+  508  git fetch
+  509  git log --oneline --graph --all
+  510  git switch dev
+  511  git pull origin dev
+  512  git fetch --prune
+  513  git branch -d git_flow
+  514  git log --oneline --graph --all
+  515  git diff
+  516  git add README.md
+  517  git commit -m "talked about git reset --hard"
+  518  git push origin dev
+  519  git switch main
+  520  git pull origin main
+  521  git fetch --prune
+  522  git branch -d dev
+  523  git switch -c dev
+  524  git push origin dev
+  525  git log --oneline --graph --all
+  526  git checkout main
+  527  git checkout -b image_history
+  528  explorer .
+  529  history > history.txt
