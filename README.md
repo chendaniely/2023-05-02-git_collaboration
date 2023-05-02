@@ -82,3 +82,5 @@ git commit -m "b2 c2"
 git push origin conflict_branch_2
 git push origin conflict_branch_1
 ```
+
+- branch protection rules: need PR + Approval
