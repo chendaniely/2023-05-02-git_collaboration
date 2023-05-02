@@ -83,4 +83,17 @@ git push origin conflict_branch_2
 git push origin conflict_branch_1
 ```
 
+## Git flow + collaboration
+
 - branch protection rules: need PR + do not allow bypass + do not need review
+
+- https://www.atlassian.com/git/tutorials/syncing
+- https://www.atlassian.com/git/tutorials/comparing-workflows
+
+A convention people use for branches to separate "main"/"production" for "development" code
+
+## Extras
+
+- Probelm: I just want to be at another place (in git)
+	- `git reset --hard <HASH>`
+	- you get the `<HASH>` from `git log --oneline`
