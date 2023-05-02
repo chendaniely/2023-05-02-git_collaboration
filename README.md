@@ -83,4 +83,4 @@ git push origin conflict_branch_2
 git push origin conflict_branch_1
 ```
 
-- branch protection rules: need PR + do not allow bypass
+- branch protection rules: need PR + do not allow bypass + do not need review
